@@ -1,9 +1,10 @@
-📘 README.md
+##📘 README.md
 
 Mini Kubernetes Delivery Simulator
 A Python learning project that models Kubernetes internals using a delivery‑company analogy.
 
-📦 Overview
+
+##📦 Overview
 
 This project is a simplified, educational model of Kubernetes written in Python.
 It simulates the core components of the Kubernetes control plane:
@@ -17,7 +18,8 @@ It simulates the core components of the Kubernetes control plane:
 I built this project as a way to learn Python and to understand how Kubernetes works under the hood.
 Coming from a COBOL background, I wanted a hands‑on, conceptual way to explore modern distributed systems.
 
-🧠 Architecture Overview
+
+##🧠 Architecture Overview
 
 The system uses a delivery‑company analogy to make Kubernetes concepts intuitive:
 
@@ -30,7 +32,8 @@ The system uses a delivery‑company analogy to make Kubernetes concepts intuiti
 
 The control plane continuously reconciles desired state with actual state, schedules work, and handles failures — just like a real Kubernetes cluster.
 
-🚀 Features
+
+##🚀 Features
 
 - Declarative desired state (like Kubernetes Deployments)
 - Reconciliation loop that maintains desired vs actual jobs
@@ -40,7 +43,8 @@ The control plane continuously reconciles desired state with actual state, sched
 - Self‑healing behavior through controllers
 - Modular, readable Python code
 
-🛠️ Installation
+
+##🛠️ Installation
 
 Clone the repository and install dependencies:
 ```
@@ -49,7 +53,8 @@ cd mini-kube-delivery
 pip install -r requirements.txt
 ```
 
-▶️ Running the Simulation
+
+##▶️ Running the Simulation
 
 Run the main simulation loop:
 ```
@@ -66,7 +71,8 @@ Job 4d5e6f | south | COMPLETED | depot=south-a
 ```
 This shows jobs being created, scheduled, run, failed, and replaced — just like a real Kubernetes cluster.
 
-🎯 Learning Goals
+
+##🎯 Learning Goals
 
 This project helped me learn:
 
@@ -91,7 +97,8 @@ Distributed Systems Concepts
 - Self‑healing
 - Workload placement
 
-🧩 Future Enhancements
+
+##🧩 Future Enhancements
 
 - Taints & tolerations
 - Topology spread constraints
@@ -101,10 +108,13 @@ Distributed Systems Concepts
 - Custom scheduler plugins
 - Node failure simulation
 
-📄 License
+
+##📄 License
 
 MIT License — feel free to use, modify, and learn from this project.
 
-🙌 Acknowledgements
+
+##🙌 Acknowledgements
+
 This project was built as a personal learning tool to bridge the gap between COBOL and modern cloud‑native engineering.
 It reflects my journey into Python, Kubernetes, and distributed systems.
