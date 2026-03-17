@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f5f5f5;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.panel {
+    margin-bottom: 30px;
+}
+
+.depot, .job {
+    background: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.job-pending { border-left: 6px solid #999; }
+.job-assigned { border-left: 6px solid #007bff; }
+.job-running { border-left: 6px solid #28a745; }
+.job-failed { border-left: 6px solid #dc3545; }
+.job-completed { border-left: 6px solid #6c757d; }

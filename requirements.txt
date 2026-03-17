@@ -1,0 +1,2 @@
+# Minimal requirements for this project
+flask

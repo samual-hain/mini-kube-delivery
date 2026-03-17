@@ -1,0 +1,6 @@
+=== CLUSTER STATE ===
+Depot north-a: active=2
+Depot south-a: active=3
+Job 1a2b3c | north | RUNNING | depot=north-a
+Job 4d5e6f | south | COMPLETED | depot=south-a
+...

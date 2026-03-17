@@ -1,0 +1,5 @@
+north:
+  desired_routes: 3
+
+south:
+  desired_routes: 4
