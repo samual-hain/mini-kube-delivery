@@ -38,24 +38,24 @@ The control plane continuously reconciles desired state with actual state, sched
 
 🛠️ Installation
 Clone the repository and install dependencies:
-
+```
 git clone https://github.com/<your-username>/mini-kube-delivery.git
 cd mini-kube-delivery
 pip install -r requirements.txt
-
+```
 ▶️ Running the Simulation
 Run the main simulation loop:
 
 python -m mini_kube_delivery.simulation
 
 Example output:
-
+```
 === CLUSTER STATE ===
 Depot north-a: active=2
 Depot south-a: active=3
 Job 1a2b3c | north | RUNNING | depot=north-a
 Job 4d5e6f | south | COMPLETED | depot=south-a
-
+```
 This shows jobs being created, scheduled, run, failed, and replaced — just like a real Kubernetes cluster.
 
 🎯 Learning Goals
